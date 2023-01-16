@@ -1,0 +1,58 @@
+<!-- Create a page to show a HTML table and add CSS to make it look nicer. Add background
+color to alternate row in the table. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        A2Q1
+    </title>
+    <style>
+        table{
+        border-collapse: collapse;
+        width: 100%;
+        }
+        tr:nth-child(even){
+        background-color: lightgreen;
+        }
+        tr:nth-child(odd){
+        background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Sl. No</th>
+        <th>Name of the Student</th>
+        <th>Registration No.</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Chandan Kumar Mallick</td>
+        <td>2141013059</td>
+        <td>Balasore</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Soumyashree Behera</td>
+        <td>2141013060</td>
+        <td>Balasore</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Rabi Narayan Mallick</td>
+        <td>2141013057</td>
+        <td>Balasore</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Sanjukta Mallick</td>
+        <td>2141013058</td>
+        <td>Balasore</td>
+    </tr>
+</table>
+</body>
+
+</html>
